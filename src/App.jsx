@@ -50,6 +50,7 @@ function App() {
         <div className="title">
           <p>
             Noticias recientes
+
           </p>
           <FormControl fullWidth className='formControl'>
             <InputLabel id="demo-simple-select-label">Categoría</InputLabel>
@@ -59,6 +60,7 @@ function App() {
               label='Cateogry'
               onChange={changeNews}
               defaultValue={listCategory[0]}
+              
             >
               <MenuItem value={listCategory[0]}>Negocios</MenuItem>
               <MenuItem value={listCategory[1]}>Entretenimiento</MenuItem>
